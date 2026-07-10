@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo h1{
+    font-size: 32;
+    color: #222;
+}
+.logo span{
+    color: #ff7a00;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: 1s;
+}
+.menu li a:hover{
+    color: #ff7a00;
+
+}
+.hero{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 45%;
+}
+.left h2{
+    font-size: 60px;
+    color: #222;
+    line-height: 1.2;
+}
+.left span{
+    color: #ff7a00;
+}
+.left p{
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+    line-height: 30px;
+}
+.btn{
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: #ff7a00;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.btn:hover{
+    background: #e56700;
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 100%;
+    border-radius: 20px;
+}
+/* Gallery Section */
+
+.Popular {
+    width:90%;
+    margin:80px auto;
+}
+
+.Popular h2{
+    text-align:center;
+    font-size:38px;
+    color:#222;
+    margin-bottom:35px;
+}
+
+.Popular-box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.Popular-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition: all 0.3s ease;
+}
+
+.Popular-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.Popular img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    
+}
+
+.Popular h3{
+    margin:15px 0 10px;
+    font-size:24px;
+}
+
+.Popular p {
+    color:#ff7a00;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+
+
+/* Chinese Section */
+
+   .chinese{
+    width:90%;
+    margin:80px auto;
+}
+
+.chinese h2{
+    text-align:center;
+    font-size:38px;
+    color:#222;
+    margin-bottom:35px;
+}
+
+.chinese-box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+.chinese-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.chinese-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.chinese-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    
+}
+
+.chinese-card h3{
+    margin:15px 0 10px;
+    font-size:24px;
+}
+
+.price{
+    color:#ff7a00;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+
+.desserts{
+    width:90%;
+    margin:80px auto;
+}
+
+.desserts h2{
+    text-align:center;
+    font-size:38px;
+    color:#222;
+    margin-bottom:35px;
+}
+
+.desserts-box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.desserts-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.desserts-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.desserts-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    
+}
+
+.desserts-card h3{
+    margin:15px 0 10px;
+    font-size:24px;
+}
+
+.price{
+    color:#ff7a00;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.drinks{
+    width:90%;
+    margin:80px auto;
+}
+
+.drinks h2{
+    text-align:center;
+    font-size:38px;
+    color:#222;
+    margin-bottom:35px;
+}
+
+.drinks-box{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.drinks-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.drinks-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.drinks-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    
+}
+
+.drinks-card h3{
+    margin:15px 0 10px;
+    font-size:24px;
+}
+
+.price{
+    color:#ff7a00;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.know-btn{
+
+    display:block;
+    width:180px;
+    margin:30px auto 0;
+    text-align:center;
+    background:#ff7a00;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 20px;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.know-btn:hover{
+    background: #e56700;
+}
+
+
+
+.footer{
+    background:#ff6b3d;
+    color:#fff;
+    padding:40px 8%;
+    margin-top:60px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:30px;
+}
+
+.footer-box h3{
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.footer-box p,
+.footer-box a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    margin:10px 0;
+    font-size:16px;
+}
+
+.footer-box a:hover{
+    color:#222;
+}
+
+.footer-box input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    outline:none;
+}
+
+.footer hr{
+    margin:30px 0 20px;
+    border:1px solid rgba(255,255,255,0.4);
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.social-icons a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background:#fff;
+    color:#ff6b3d;
+    border-radius:50%;
+    margin-left:10px;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.social-icons a:hover{
+    background:#222;
+    color:#fff;
+}
